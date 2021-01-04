@@ -4,13 +4,13 @@ require_relative '../fizzbuzz.rb'
 
 def fizzbuzz(number)
   if number % 3 == 0 && number % 5 == 0
-    "Fizzbuzz"
+    "FizzBuzz"
   elsif number % 3 == 0
     "Fizz"
   elsif number % 5 == 0
     "Buzz"
   else
-    Number
+    number
     "nil"
   end
 end
