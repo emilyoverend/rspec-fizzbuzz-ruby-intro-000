@@ -11,7 +11,7 @@ def fizzbuzz(number)
     "Buzz"
   else
     number % 4
-    "nil"
+    nil
   end
 end
 
